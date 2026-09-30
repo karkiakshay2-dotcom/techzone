@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TechZone – Modern Electronics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><div class="wrap bar">
+<a class="logo" href="#/">Tech<b>Zone</b></a>
+<form class="srch" id="sf" role="search"><input id="sq" type="search" placeholder="Search phones, laptops, audio…" aria-label="Search products"><button class="btn">Search</button></form>
+<nav class="nav"><a href="#/shop">Shop</a><a href="#/wishlist">Wishlist<span class="cnt" id="wc">0</span></a><a href="#/cart">Cart<span class="cnt" id="cc">0</span></a></nav>
+</div></header>
+<main class="wrap" id="app"></main>
+<footer><div class="wrap">TechZone is a demo store. Cart and wishlist are saved in your browser; no payment is taken.</div></footer>
+<script src="js/app.js"></script>
+</body>
+</html>
